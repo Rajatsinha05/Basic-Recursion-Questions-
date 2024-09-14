@@ -1,18 +1,145 @@
-# rajatsinha058
-<img src="https://raw.githubusercontent.com/priyan1995/priyan1995/master/readme-image.gif" />
 
+### Recursion Questions (Including More Array Problems)
 
+#### 1. **Factorial of a Number**
+   - **Instruction**: Write a recursive function to calculate the factorial of a given non-negative integer `n`. The factorial of `n` is defined as `n! = n * (n-1) * (n-2) * ... * 1`, and `0! = 1`.
+   - **Sample Input and Output**:
+     - Input: `5`
+     - Output: `120`
+     - Input: `0`
+     - Output: `1`
+     - Input: `3`
+     - Output: `6`
+   - **Explanation**: The function multiplies the current number `n` by the factorial of `n-1` until `n` is 0.
 
+#### 2. **Sum of Natural Numbers**
+   - **Instruction**: Write a recursive function to find the sum of the first `n` natural numbers. The sum of the first `n` natural numbers is `n + (n-1) + (n-2) + ... + 1`.
+   - **Sample Input and Output**:
+     - Input: `5`
+     - Output: `15`
+     - Input: `3`
+     - Output: `6`
+     - Input: `0`
+     - Output: `0`
+   - **Explanation**: The function adds the current number `n` to the sum of the numbers from `1` to `n-1`.
 
+#### 3. **Fibonacci Series**
+   - **Instruction**: Write a recursive function to find the `n`th Fibonacci number. The Fibonacci sequence is defined as `F(0) = 0`, `F(1) = 1`, and `F(n) = F(n-1) + F(n-2)` for `n > 1`.
+   - **Sample Input and Output**:
+     - Input: `5`
+     - Output: `5`
+     - Input: `0`
+     - Output: `0`
+     - Input: `7`
+     - Output: `13`
+   - **Explanation**: The function returns the sum of the previous two Fibonacci numbers until it reaches the base cases `0` and `1`.
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Node-RED](https://img.shields.io/badge/Node--RED-%238F0000.svg?style=for-the-badge&logo=node-red&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white) ![Nuxt JS](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=rajatsinha05&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=rajatsinha05&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rajatsinha05&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+#### 4. **Reverse a String**
+   - **Instruction**: Write a recursive function to reverse a given string.
+   - **Sample Input and Output**:
+     - Input: `"hello"`
+     - Output: `"olleh"`
+     - Input: `"abcd"`
+     - Output: `"dcba"`
+     - Input: `"recursion"`
+     - Output: `"noisrucer"`
+   - **Explanation**: The function takes the last character of the string and appends it to the reverse of the remaining substring.
 
----
-[![](https://visitcount.itsvg.in/api?id=rajatsinha05&icon=0&color=0)](https://visitcount.itsvg.in)
+#### 5. **Sum of Digits**
+   - **Instruction**: Write a recursive function to calculate the sum of the digits of a given non-negative integer.
+   - **Sample Input and Output**:
+     - Input: `123`
+     - Output: `6`
+     - Input: `456`
+     - Output: `15`
+     - Input: `789`
+     - Output: `24`
+   - **Explanation**: The function adds the last digit of the number to the sum of the digits of the remaining number.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+#### 6. **Power of a Number**
+   - **Instruction**: Write a recursive function to calculate `x` raised to the power of `n` (`x^n`).
+   - **Sample Input and Output**:
+     - Input: `2, 3`
+     - Output: `8`
+     - Input: `5, 0`
+     - Output: `1`
+     - Input: `3, 4`
+     - Output: `81`
+   - **Explanation**: The function multiplies `x` by the result of `x` raised to the power of `n-1` until `n` is `0`.
+
+#### 7. **Count Occurrences of a Character**
+   - **Instruction**: Write a recursive function to count the occurrences of a specific character in a given string.
+   - **Sample Input and Output**:
+     - Input: `"hello", 'l'`
+     - Output: `2`
+     - Input: `"recursion", 'r'`
+     - Output: `2`
+     - Input: `"apple", 'p'`
+     - Output: `2`
+   - **Explanation**: The function checks if the first character of the string matches the given character, adds `1` if true, and proceeds to the next character.
+
+#### 8. **Check if a String is Palindrome**
+   - **Instruction**: Write a recursive function to check if a given string is a palindrome (reads the same forward and backward).
+   - **Sample Input and Output**:
+     - Input: `"racecar"`
+     - Output: `true`
+     - Input: `"hello"`
+     - Output: `false`
+     - Input: `"madam"`
+     - Output: `true`
+   - **Explanation**: The function compares the first and last characters of the string and recursively checks the substring excluding those characters.
+
+#### 9. **Greatest Common Divisor (GCD)**
+   - **Instruction**: Write a recursive function to find the GCD of two non-negative integers using the Euclidean algorithm.
+   - **Sample Input and Output**:
+     - Input: `48, 18`
+     - Output: `6`
+     - Input: `56, 98`
+     - Output: `14`
+     - Input: `101, 10`
+     - Output: `1`
+   - **Explanation**: The function finds the GCD by repeatedly subtracting the smaller number from the larger or using modulus until one of the numbers becomes `0`.
+
+#### 10. **Find Minimum in an Array**
+   - **Instruction**: Write a recursive function to find the minimum element in an array of integers.
+   - **Sample Input and Output**:
+     - Input: `[3, 1, 4, 1, 5, 9]`
+     - Output: `1`
+     - Input: `[10, 20, 5, 8, 3]`
+     - Output: `3`
+     - Input: `[7, 6, 2, 8, 4]`
+     - Output: `2`
+   - **Explanation**: The function compares the first element with the minimum of the rest of the array recursively to find the smallest value.
+
+#### 11. **Sum of Array Elements**
+   - **Instruction**: Write a recursive function to find the sum of all elements in an array.
+   - **Sample Input and Output**:
+     - Input: `[1, 2, 3, 4, 5]`
+     - Output: `15`
+     - Input: `[10, 20, 30]`
+     - Output: `60`
+     - Input: `[7, -2, 3]`
+     - Output: `8`
+   - **Explanation**: The function adds the first element to the sum of the remaining elements until the array is empty.
+
+#### 12. **Reverse an Array**
+   - **Instruction**: Write a recursive function to reverse an array.
+   - **Sample Input and Output**:
+     - Input: `[1, 2, 3, 4]`
+     - Output: `[4, 3, 2, 1]`
+     - Input: `[10, 20, 30]`
+     - Output: `[30, 20, 10]`
+     - Input: `[7, 6, 5]`
+     - Output: `[5, 6, 7]`
+   - **Explanation**: The function swaps the first and last elements, then recursively calls itself on the subarray excluding the swapped elements.
+
+#### 13. **Count Occurrences in Array**
+   - **Instruction**: Write a recursive function to count the occurrences of a given element in an array.
+   - **Sample Input and Output**:
+     - Input: `[1, 2, 2, 3, 2], 2`
+     - Output: `3`
+     - Input: `[4, 5, 6, 5, 4], 4`
+     - Output: `2`
+     - Input: `[7, 8, 9, 7, 9], 7`
+     - Output: `2`
+   - **Explanation**: The function checks each element, increments the count if it matches the given element, and recursively checks the rest of the array.
