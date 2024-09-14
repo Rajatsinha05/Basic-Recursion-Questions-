@@ -1,5 +1,5 @@
 
-### Recursion Questions (Including More Array Problems)
+### Recursion Questions 
 
 #### 1. **Factorial of a Number**
    - **Instruction**: Write a recursive function to calculate the factorial of a given non-negative integer `n`. The factorial of `n` is defined as `n! = n * (n-1) * (n-2) * ... * 1`, and `0! = 1`.
